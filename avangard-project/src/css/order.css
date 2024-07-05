@@ -1,0 +1,110 @@
+.body {
+  display: flex;
+  height: 900px;
+}
+
+.Recruitment-imag {
+  height: 600px;
+}
+
+.Recruitment-info {
+  direction: rtl;
+  text-align: center;
+  width: 40%;
+  height: 750px;
+  border: none;
+  border-radius: 50px;
+  background-color: #dbdddf;
+  margin-top: 55px;
+  margin-left: -20px;
+  padding: 10px;
+  box-shadow: 0px 0px 16px 1px #00000065;
+}
+
+.name-input {
+  border: none;
+  margin-top: 30px;
+  height: 79px;
+  width: 392px;
+  border-radius: 16px;
+  background-color: #efefee;
+  box-shadow: 0px 0px 16px 1px #00000040;
+  font-size: 19px;
+  color: #544b45;
+}
+
+.lastName-input {
+  border: none;
+  margin-top: 30px;
+  height: 79px;
+  width: 392px;
+  border-radius: 16px;
+  background-color: #efefee;
+  box-shadow: 0px 0px 16px 1px #00000040;
+  font-size: 19px;
+  color: #544b45;
+}
+
+.phone-input {
+  border: none;
+  margin-top: 30px;
+  height: 79px;
+  width: 392px;
+  border-radius: 16px;
+  background-color: #efefee;
+  box-shadow: 0px 0px 16px 1px #00000040;
+  font-size: 19px;
+  color: #544b45;
+}
+
+.discription-info {
+  margin-right: 40px;
+  border: none;
+  margin-top: 20px;
+  height: 253px;
+  width: 84%;
+  border-radius: 16px;
+  background-color: #efefee;
+  box-shadow: 0px 0px 16px 1px #00000040;
+  font-size: 15px;
+  color: #544b45;
+  resize: none;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.discription-chekBox {
+  text-align: right;
+  padding: 10px;
+  display: grid;
+  margin-right: 5px;
+  margin-top: 20px;
+  color: #544b45;
+  width: 40%;
+  background-color: #efefee;
+  border: none;
+  box-shadow: 0px 0px 16px 1px #00000040;
+  border-radius: 16px;
+  height: 234px;
+}
+
+.cooperyion {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #e85e05;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  width: 25%;
+  height: 55px;
+}
+
+.cooperyion:hover {
+  background-color: #f0a475;
+  color: #6c6560;
+}
+.cooperyion:active {
+  background-color: #e85e05;
+  color: #ffffff;
+}

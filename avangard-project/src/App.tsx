@@ -3,10 +3,11 @@ import { useState } from "react";
 import Home from "./components/Home";
 import Loading from "./components/Loading";
 import Recruitment from "./components/Recruitment";
+import Order from "./components/order";
 
 function App() {
-  const [numberPage, setNumberpage] = useState(2);
-  const components = [<Home />, <Loading />, <Recruitment />];
+  const [numberPage, setNumberpage] = useState(3);
+  const components = [<Home />, <Loading />, <Recruitment />, <Order />];
 
   return (
     <>
