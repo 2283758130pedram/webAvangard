@@ -1,6 +1,13 @@
 import "./App.css";
+import { useState } from "react";
+import Home from "./components/Home";
+import Loading from "./components/Loading";
+import Recruitment from "./components/Recruitment";
 
 function App() {
+  const [numberPage, setNumberpage] = useState(2);
+  const components = [<Home />, <Loading />, <Recruitment />];
+
   return (
     <>
       <div className="navbar">
@@ -33,7 +40,7 @@ function App() {
         <img src="../picture/Group 33179.png" className="translate-icon" />
       </div>
       {/* header of page */}
-
+      {components[numberPage]}
       {/* foter page */}
       {/* absolotposition */}
       <div className="footer">
