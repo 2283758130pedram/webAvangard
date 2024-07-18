@@ -10,11 +10,11 @@
   display: flex;
 }
 
-.light-mode {
-  width: 60px;
-  height: 30px;
-  margin-top: 42.5px;
-  margin-left: 30px;
+.light-icon {
+  background-color: black;
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 5%;
 }
 
 .menuBar {

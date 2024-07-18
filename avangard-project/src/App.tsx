@@ -4,15 +4,16 @@ import Home from "./components/Home";
 import Loading from "./components/Loading";
 import Recruitment from "./components/Recruitment";
 import Order from "./components/order";
+import { CiLight } from "react-icons/ci";
 
 function App() {
-  const [numberPage, setNumberpage] = useState(3);
+  const [numberPage, setNumberpage] = useState(0);
   const components = [<Home />, <Loading />, <Recruitment />, <Order />];
 
   return (
     <>
       <div className="navbar">
-        <img src="../picture/Group 33178.png" className="light-mode" />
+        <CiLight />
         <div className="menuBar">
           <button className="bnt-1">
             <span
