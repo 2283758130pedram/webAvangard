@@ -1,5 +1,4 @@
 import "../css/home.css";
-import { CiLight } from "react-icons/ci";
 const home = () => {
   return (
     <div>

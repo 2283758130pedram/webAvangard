@@ -4,15 +4,24 @@ import Home from "./components/Home";
 import Loading from "./components/Loading";
 import Recruitment from "./components/Recruitment";
 import Order from "./components/order";
+import Signin from "./components/Signin";
+import LogingPage from "./components/Login";
 import { CiLight } from "react-icons/ci";
 
 function App() {
-  const [numberPage, setNumberpage] = useState(0);
-  const components = [<Home />, <Loading />, <Recruitment />, <Order />];
+  const [numberPage, setNumberpage] = useState(4);
+  const components = [
+    <Home />,
+    <Loading />,
+    <Recruitment />,
+    <Order />,
+    <Signin />,
+    <LogingPage />,
+  ];
 
   return (
     <>
-      <div className="navbar">
+      {/* <div className="navbar">
         <CiLight />
         <div className="menuBar">
           <button className="bnt-1">
@@ -36,20 +45,19 @@ function App() {
           <p className="menu-text">نمونه کار</p>
           <p className="menu-text">ثبت سفارش</p>
 
-          <p className="avan-text">وب اوانگارد</p>
           <img src="../picture/Group 33180.png" className="avangard-icon" />
         </div>
         <img src="../picture/Group 33179.png" className="translate-icon" />
-      </div>
+      </div> */}
       {/* header of page */}
       {components[numberPage]}
       {/* foter page */}
       {/* absolotposition */}
-      <div className="footer">
+      {/* <div className="footer">
         <div className="footer-menu">
           <p className="text-menu-footer">درباره ما</p>
           <p className="text-menu-footer">همکاری</p>
-          <p className="text-menu-footer">دیجیتال مارکتینگ</p>
+          <p className="text-menu-footer">دی جیتال مارکتینگ</p>
           <p className="text-menu-footer">نمونه کار</p>
           <p className="text-menu-footer">ثبت سفارش</p>
         </div>
@@ -86,7 +94,7 @@ function App() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

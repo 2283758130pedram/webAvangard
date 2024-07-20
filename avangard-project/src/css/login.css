@@ -1,0 +1,150 @@
+body, html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/logb.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  height: 490px;
+  aspect-ratio: 1 / 1;
+  padding: 20px;
+  background-color: #ceccca;
+  border-radius: 23px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+}
+
+form {
+  width: 100%;
+}
+
+.input-box{
+  margin-bottom: 15px;
+  width: 100%;
+  
+}
+
+input[type=''] {
+  width: 100%;
+  padding: 22px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input[type='']:focus {
+  direction: ltr;
+}
+
+input[type='']::placeholder {
+  color: #4c4c4c;
+  padding: 5px;
+}
+
+input[type='']:focus {
+  border-color: #e85d04;
+  outline: none;
+  box-shadow: 0 0 8px rgba(232, 93, 4, 0.8);
+}
+
+button{
+  font-size: 16px;
+  background-color: #e85d04;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  width: 360px;
+  height: 65px;
+  margin-right: 4px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover{
+  background-color: #ee945d;
+}
+
+p {
+  font-size: 16px;
+  padding-top: 35px;
+}
+
+p span {
+  color: #e85d04;
+}
+
+p span:hover {
+  cursor: pointer;
+}
+
+.webavangard{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    max-height: 550px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  input[type='text'],
+  input[type='tel'] {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    padding: 15px;
+    max-height: 450px;
+    max-width: 360px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input[type='text'],
+  input[type=''] {
+    font-size: 14px;
+    max-width: 330px;
+  }
+
+  .webavangard{
+    margin: 10px;
+  }
+
+  button {
+    max-width: 330px;
+  }
+  
+  p{
+    font-size: 14px;
+  }
+}
